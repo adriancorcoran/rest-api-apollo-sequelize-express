@@ -1,0 +1,37 @@
+{
+  "name": "Node-Express-Minimal",
+  "version": "1.0.0",
+  "description": "# Node-Minimal",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "sequelize-skeleton": "./node_modules/sequelize-cli/lib/sequelize init:models; ./node_modules/sequelize-cli/lib/sequelize init:config"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adriancorcoran/Node-Express-Minimal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adriancorcoran/Node-Express-Minimal/issues"
+  },
+  "homepage": "https://github.com/adriancorcoran/Node-Express-Minimal#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^6.0.0",
+    "express": "^4.17.1",
+    "mysql2": "^1.6.5",
+    "nodemon": "^1.19.1",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2",
+    "sequelize": "^5.9.4"
+  },
+  "devDependencies": {
+    "faker": "^4.1.0",
+    "lodash.random": "^3.2.0",
+    "lodash.times": "^4.3.2",
+    "sequelize-cli": "^5.5.0"
+  }
+}
