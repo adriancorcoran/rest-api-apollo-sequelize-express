@@ -26,7 +26,7 @@
     "nodemon": "^1.19.1",
     "request": "^2.87.0",
     "request-promise": "^4.2.2",
-    "sequelize": "^5.9.4"
+    "sequelize": "^5.15.1"
   },
   "devDependencies": {
     "faker": "^4.1.0",
